@@ -1,0 +1,205 @@
+/********* Invoice Card Style Start ******/
+#order-status-list{
+    list-style: none;
+}
+#order-status-list li{
+    line-height: 22px;
+    font-size: 14px;
+}
+.order-status-icon{
+    width: 18px;
+    height: 18px;
+    background: #444;
+    margin-right: 5px;
+    float: left;
+}
+.pickup{
+    background: #F0D278;
+}
+.received{
+    background: #90CFE8;
+}
+.process{
+    background: #A8A6E3;
+}
+.readytodeliver{
+    background: #F4FA4D;
+}
+.delivered{
+    background: #67F060;
+}
+.cancelled{
+    background: #FA9078;
+}
+
+.partial-delivered{
+    background: #4A235A;
+}
+
+#order-dashboard .span4:nth-child(4),#order-dashboard .span4:nth-child(7),#order-dashboard .span4:nth-child(10),#order-dashboard .span4:nth-child(13),#order-dashboard .span4:nth-child(16),#order-dashboard .span4:nth-child(19),#order-dashboard .span4:nth-child(22),#order-dashboard .span4:nth-child(25),#order-dashboard .span4:nth-child(28){
+    margin-left: 0;
+}
+/********* Invoice Card Style End ******/
+.box {
+    position: relative;
+    border: 1px solid #BBB;
+    background: #EEE;
+    margin-bottom: 20px;
+}
+.ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+
+/************ Pickup Ribbon Style Start  ************/
+.pickup-ribbon span{
+    background: #F0D278;
+    background: linear-gradient(#F0D278 0%, #F0D278 100%);
+}
+
+.pickup-ribbon span::before{
+    border-left: 3px solid #F0D278;
+    border-top: 3px solid #F0D278;
+}
+
+.pickup-ribbon span::after{
+    border-right: 3px solid #F0D278;
+    border-top: 3px solid #F0D278;
+}
+/************ Pickup Ribbon Style End  ************/
+
+/************ Received Ribbon Style Start  ************/
+.received-ribbon span{
+    background: #90CFE8;
+    background: linear-gradient(#90CFE8 0%, #90CFE8 100%);
+}
+
+.received-ribbon span::before{
+    border-left: 3px solid #90CFE8;
+    border-top: 3px solid #90CFE8;
+}
+
+.received-ribbon span::after{
+    border-right: 3px solid #90CFE8;
+    border-top: 3px solid #90CFE8;
+}
+/************ Received Ribbon Style End  ************/
+
+/************ In Process Ribbon Style Start  ************/
+.process-ribbon span{
+    background: #A8A6E3;
+    background: linear-gradient(#A8A6E3 0%, #A8A6E3 100%);
+}
+
+.process-ribbon span::before{
+    border-left: 3px solid #A8A6E3;
+    border-top: 3px solid #A8A6E3;
+}
+
+.process-ribbon span::after{
+    border-right: 3px solid #A8A6E3;
+    border-top: 3px solid #A8A6E3;
+}
+/************ In Process Ribbon Style End  ************/
+
+/************ Out for Delivery Ribbon Style Start  ************/
+.out-for-delivery-ribbon span{
+    background: #F4FA4D;
+    background: linear-gradient(#F4FA4D 0%, #F4FA4D 100%);
+}
+
+.out-for-delivery-ribbon span::before{
+    border-left: 3px solid #F4FA4D;
+    border-top: 3px solid #F4FA4D;
+}
+
+.out-for-delivery-ribbon span::after{
+    border-right: 3px solid #F4FA4D;
+    border-top: 3px solid #F4FA4D;
+}
+/************ Out for Delivery Ribbon Style End  ************/
+
+/************ Deliver Ribbon Style Start  ************/
+.deliver-ribbon span{
+    background: #67F060;
+    background: linear-gradient(#67F060 0%, #67F060 100%);
+}
+
+.deliver-ribbon span::before{
+    border-left: 3px solid #67F060;
+    border-top: 3px solid #67F060;
+}
+
+.deliver-ribbon span::after{
+    border-right: 3px solid #67F060;
+    border-top: 3px solid #67F060;
+}
+/************ Deliver Ribbon Style End  ************/
+/************ Canceled Ribbon Style Start  ************/
+.cancel-ribbon span{
+    background: #FA9078;;
+    background: linear-gradient(#FA9078 0%, #FA9078 100%);
+}
+
+.cancel-ribbon span::before{
+    border-left: 3px solid #FA9078;
+    border-top: 3px solid #FA9078;
+}
+
+.cancel-ribbon span::after{
+    border-right: 3px solid #FA9078;
+    border-top: 3px solid #FA9078;
+}
+/************ Canceled Ribbon Style End  ************/
+
+/************ Partial Delivered  Ribbon Style Start  ************/
+.partial-delivered-ribbon span{
+    background: #4A235A;
+    background: linear-gradient(#4A235A 0%, #4A235A 100%);
+}
+
+.partial-delivered-ribbon span::before{
+    border-left: 3px solid #4A235A;
+    border-top: 3px solid #4A235A;
+}
+
+.partial-delivered-ribbon span::after{
+    border-right: 3px solid #4A235A;
+    border-top: 3px solid #4A235A;
+}
+/************ Partial Delivered Ribbon Style End  ************/

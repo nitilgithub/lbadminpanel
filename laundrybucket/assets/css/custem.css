@@ -1,0 +1,61 @@
+.tbl-txt-cen td{
+	text-align: center !important;
+}
+.m-b-10{
+	margin-bottom: 10px;
+}
+.m-b-20{
+	margin-bottom: 20px;
+}
+.m-t-b-10{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.m-t-b-20{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.m-t-7{
+	margin-top: 7px;
+}
+.m-r-7{
+	margin-right: 7px;
+}
+.f-r{
+	float: right !important;
+}
+.o-f-h{
+	overflow: hidden;
+}
+.b-l{
+	border-left: 1px solid #dadada;
+}
+.controls{
+	overflow: hidden !important;
+}
+.switch{
+	margin-top: 3px;
+}
+
+.table-filter{
+	width: 220px;
+	float: left;
+}
+
+.select2-container a{
+	line-height: 30px !important;
+	height: 30px !important;
+}
+
+.t-a-c{
+	text-align: center;
+}
+.t-a-l{
+	text-align: left !important;
+}
+.m-b-0{
+	margin-bottom: 0 !important;
+}
+.f-w-7h{
+	font-weight: 700;
+}

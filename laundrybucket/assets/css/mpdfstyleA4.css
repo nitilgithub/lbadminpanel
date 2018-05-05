@@ -1,0 +1,41 @@
+#report-card{
+ width: 98%;
+ margin: 10px auto;
+}
+#report-card h3,#report-card h4{
+    width: 100% !important;
+}
+#report-card table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tbl-txt-cen tr td{
+    text-align: center;
+    padding: 0;
+}
+.tbl-txt-cen tr:first-child{
+    background: #ccc;
+}
+#report-card table tr,#report-card table tr th,#report-card table tr td{
+border: 1px solid #444;
+
+}
+#report-card table tr td{
+
+}
+#report-card .card-row{
+    width: 100% !important;
+    display: table;
+}
+#report-card  #mark-info tr td{
+    padding-left: 5px;
+}
+#report-card  #mark-info tr .f-w-7h{
+    font-weight: 700;
+}
+@media print {
+    #report-card{
+        width: 98%;
+        margin: 10px auto;
+    }
+}
